@@ -52,7 +52,7 @@ hist(df.day$steps, main = "Histogram of the total number of steps taken each day
     xlab = "total number of steps taken each day")
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](figures/unnamed-chunk-3.png) 
 
 
 ### The mean and median total number of steps taken per day
@@ -91,7 +91,7 @@ plot(df.mean.interval$interval, df.mean.interval$mean.steps, type = "n", main = 
 lines(df.mean.interval$interval, df.mean.interval$mean.steps, type = "l")
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
+![plot of chunk unnamed-chunk-6](figures/unnamed-chunk-6.png) 
 
 ```r
 
@@ -194,7 +194,7 @@ hist(df.day.new$steps, main = "Histogram of the total number of steps taken each
     xlab = "total number of steps taken each day")
 ```
 
-![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14.png) 
+![plot of chunk unnamed-chunk-14](figures/unnamed-chunk-14.png) 
 
 
 ### The mean and median total number of steps taken per day
@@ -236,7 +236,7 @@ hist(df.day$steps, main = "(with NA)", xlab = "total number of steps taken each 
 hist(df.day.new$steps, main = "(NA replaced)", xlab = "total number of steps taken each day")
 ```
 
-![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17.png) 
+![plot of chunk unnamed-chunk-17](figures/unnamed-chunk-17.png) 
 
 
 ### Estimates of the total daily number of steps
@@ -294,5 +294,5 @@ xyplot(df.new.2.mean.interval$mean.steps ~ df.new.2.mean.interval$interval |
     ylab = "Number of steps")
 ```
 
-![plot of chunk unnamed-chunk-19](figure/unnamed-chunk-19.png) 
+![plot of chunk unnamed-chunk-19](figures/unnamed-chunk-19.png) 
 
